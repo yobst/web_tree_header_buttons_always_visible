@@ -21,17 +21,18 @@
 {
     "name": "Tree View Header Buttons Always Visible",
     "category": "Web",
-    "version": "14.0.1.0.0",
-    "author": "Tlki",
+    "version": "16.0.1.0.0",
+    "author": "Tlki & Yobst",
     "license": "AGPL-3",
     "description": "Always visible tree view header buttons",
     "depends": [
         "web"
     ],
-    "data": [
-        "views/assets.xml",
-    ],
-    "qweb": ['static/src/xml/*.xml'],
     "installable": True,
     "application": False,
+    'assets': {
+        'web.assets_backend': [
+            '/web_tree_header_buttons_always_visible/static/src/js/list_controller.js'
+        ],
+    }
 }
