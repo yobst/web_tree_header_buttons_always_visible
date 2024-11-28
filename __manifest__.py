@@ -21,7 +21,7 @@
 {
     "name": "Tree View Header Buttons Always Visible",
     "category": "Web",
-    "version": "16.0.1.0.0",
+    "version": "16.0.1.0",
     "author": "Tlki & Yobst",
     "license": "AGPL-3",
     "description": "Always visible tree view header buttons",
