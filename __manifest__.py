@@ -32,7 +32,7 @@
     "application": False,
     'assets': {
         'web.assets_backend': [
-            '/web_tree_header_buttons_always_visible/static/src/js/list_controller.js'
+            'web_tree_header_buttons_always_visible/static/src/js/list_controller.js'
         ],
     }
 }
